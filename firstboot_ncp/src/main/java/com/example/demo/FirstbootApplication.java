@@ -17,7 +17,7 @@ import spring.mybatis.board.BoardController;
 */
 @SpringBootApplication //실행
 //@ComponentScan  
-//@ComponentScan(basePackages = "upload")
+@ComponentScan(basePackages = "upload")
 //@ComponentScan(basePackageClasses = BoardController.class)
 
 //@ComponentScan(basePackages = {"upload", "spring.mybatis.board"})
